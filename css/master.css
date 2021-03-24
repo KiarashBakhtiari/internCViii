@@ -1,0 +1,161 @@
+body{
+    font-family: sans-serif;
+    overflow-x: hidden
+}
+#header{
+    width: 100%;
+    min-height: 200px;
+    background: url(../images/01.jpg) no-repeat center center;
+    background-size: cover
+}
+#header h2{
+    color: violet
+}
+#header h4{
+    color: orange
+}
+.login-box{
+    text-align: right;
+    padding: 20px
+}
+@media screen and (max-width:500px){
+    #header h2,
+    #header h4,
+    #header .login-box{
+    text-align: center
+    }
+    #header .login-box{
+        padding: 15px;
+    }
+}
+.mrt{
+    margin-top: 15px
+}
+.about-parent{
+    width: 100%;
+    margin-bottom: 15px
+}
+.about-title{
+    width: 100%;
+    padding: 4px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    
+}
+.about-title h6{
+    font-size: 25px;
+}
+.about-description{
+    background-color: #e9e9e9;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 24px;
+    line-height: 35px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px
+    
+}
+@media screen and (max-width:1200px){
+    .about-description{
+    background-color: #e9e9e9;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px
+    
+}
+}
+@media screen and (max-width:992px){
+    .about-description{
+    background-color: #e9e9e9;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13.5px;
+    line-height: 17.5px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px
+    
+}
+}
+
+.parent{
+    width: 100%;
+}
+.parent-title{
+    width: 100%;
+    background-color:#333;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.parent-title h5{
+    font-weight: bolder;
+    padding: 15px;
+    font-size: 18px;
+}
+.parent-description{
+    background-color: #d9d9d9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.news-box{
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+    
+}
+.news-box a{
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+article{
+    background-color: #e9e9e9;
+    width: 100%;
+    padding: 10px;
+}
+.news-title h2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px
+}
+article p{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.news-footer{
+    background-color: #333;
+    width: 100%;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    text-align: center;
+    color: white;
+    line-height: 200px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
